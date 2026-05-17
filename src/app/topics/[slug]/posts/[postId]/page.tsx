@@ -8,7 +8,6 @@ import CommentCreateForm from "@/components/comments/commentCreateForm";
 
 import CommentList from "@/components/comments/commentList";
 
-import { fetchCommentByPostId } from "@/db/queries/comments";
 import { Suspense } from "react";
 import { PostShowLoading } from "@/components/posts/postShowLoading";
 
