@@ -22,8 +22,6 @@ interface PostShowPageProps {
 export default async function PostShowPage({ params }: PostShowPageProps) {
   const { slug, postId } = await params;
 
-  const comments = await fetchCommentByPostId(postId);
-
   return (
     <div className="space-y-3">
       <Link className="underline decoration-solid" href={paths.topicShow(slug)}>

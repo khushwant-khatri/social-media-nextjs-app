@@ -1,6 +1,6 @@
 "use client";
 
-import { TextField, Button, Avatar, Popover, Typography } from "@mui/material";
+import { Button, Avatar, Popover, Typography } from "@mui/material";
 
 import { useSession, signIn, signOut } from "next-auth/react";
 
